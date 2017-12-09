@@ -1,4 +1,4 @@
-# Advent of Code, Day 8, Part a
+# Advent of Code, Day 8, Part b
 # Lee Cattarin
 
 def compare(var, cond, val):

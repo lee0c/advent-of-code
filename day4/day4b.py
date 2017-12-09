@@ -1,4 +1,4 @@
-# Advent of Code, Day 4, Part a
+# Advent of Code, Day 4, Part b
 # Lee Cattarin
 
 valid_passphrases = 0

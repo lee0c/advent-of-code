@@ -1,4 +1,4 @@
-# Advent of Code, Day 7, Part a
+# Advent of Code, Day 7, Part b
 # Lee Cattarin
 
 from Node import Node

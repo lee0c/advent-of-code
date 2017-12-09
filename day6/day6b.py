@@ -1,4 +1,4 @@
-# Advent of Code, Day 6, part a
+# Advent of Code, Day 6, part b
 # Lee Cattarin
 
 def string(nums):

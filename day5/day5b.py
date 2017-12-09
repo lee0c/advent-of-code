@@ -1,4 +1,4 @@
-# Advent of Code, Day 5, Part a
+# Advent of Code, Day 5, Part b
 # Lee Cattarin
 
 maze = []
@@ -18,7 +18,7 @@ while not now < 0 and not now >= len(maze):
         maze[now] -= 1
     else:
         maze[now] += 1
-        
+
     now += step
     steps += 1
 
