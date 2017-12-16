@@ -7,10 +7,8 @@ f = open("input.txt", "r")
 lengths = f.read().strip()
 f.close()
 
-lengths = input()
 lengths = [ord(x) for x in lengths] + [17, 31, 73, 47, 23]
 
-# trivially correct
 ring = [x for x in range(256)]
 pos = 0
 skip = 0
@@ -19,8 +17,6 @@ skip = 0
 for i in range(64):
     for length in lengths:
 
-        # I know this is correct
-        # succeeds part a and other simple tests
         if length + pos >= len(ring):
             section = ring[pos:] + ring[:length - (len(ring) - pos)]
         else:
