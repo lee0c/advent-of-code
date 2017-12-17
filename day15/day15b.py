@@ -1,4 +1,4 @@
-# Advent of Code, Day 15, Part a
+# Advent of Code, Day 15, Part b
 # Lee Cattarin
 
 a = 883
@@ -11,9 +11,14 @@ limit = 2147483647
 
 matches = 0
 
-for i in range(40000000):
+for i in range(5000000):
     a = (a * a_factor) % limit
-    b = (b * b_factor) % limit
+    while a % 4 != 0:
+        a = (a * a_factor) % limit
+
+    b = (b * b_factor) % limit        
+    while b % 8 != 0:
+        b = (b * b_factor) % limit
 
     a_bin = format(a, "032b")
     b_bin = format(b, "032b")
